@@ -8,7 +8,7 @@ Software libraries to assist in development of NebulaWare software products.
 
 **[NebulaAudio:](docs/audio.md)** A wrapper for the HTMLAudioElement interface with extra features
 
-**[NebulaMenu:](docs/contextmenu.md)** Create and manage application context menus
+**[NebulaMenu:](docs/menu.md)** Create and manage application dropdown and context menus
 
 **[NebulaModal:](docs/modal.md)** Create and manage popout videos, forms and modals
 
