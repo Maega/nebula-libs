@@ -46,17 +46,30 @@
 <body>
 
     <script type="module">
-        import NebulaAlert from './lib/alerts.lib.js';
-        window.NebulaAlert = NebulaAlert;
+
+        const nebula = {};
+
+        import * as notify from './lib/alerts.lib.js';
+        nebula.notify = notify;
 
         import NebulaAudio from './lib/audio.lib.js';
-        window.NebulaAudio = NebulaAudio;
+        nebula.audio = new NebulaAudio();
 
         import NebulaWindow from './lib/window.lib.js';
         window.NebulaWindow = NebulaWindow;
 
         import NebulaPrefs from './lib/settings.lib.js';
-        window.NebulaPrefs = NebulaPrefs;
+        nebula.settings = new NebulaPrefs([
+            {
+                id: 'debug.testVar',
+                default: true,
+                apply: async (newVar) => {
+                    console.log('Newly applied value is: ' + newVar);
+                }
+            }
+        ]);
+
+        window.nebula = nebula;
     </script>
 
 </body>
