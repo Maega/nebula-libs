@@ -18,7 +18,7 @@ Software libraries to assist in development of NebulaWare software products.
 
 ## :heart: Support
 
-If you'd like to support ongoing development of this project, a donation would be very much appreciated to help me dedicate more of my time making AutoVirt a reality. I accept direct crypto donations via any of the addresses below or through [Coinbase Commerce](https://commerce.coinbase.com/checkout/bb4f7665-bfdc-4c22-9fc8-78299010b1c8).
+If you'd like to support ongoing development of this project, a donation would be very much appreciated to help me dedicate more of my time to this and other projects. I accept direct crypto donations via any of the addresses below or through [Coinbase Commerce](https://commerce.coinbase.com/checkout/bb4f7665-bfdc-4c22-9fc8-78299010b1c8).
 
 **BTC:** bc1q6kqv5u2368j4l00rls5frg78wt7m6vf7a50sa7
 
