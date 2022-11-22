@@ -45,12 +45,21 @@
 </head>
 <body>
 
+    <div>
+        <button onclick="nebula.modal.iframe('https://www.youtube.com/embed/dQw4w9WgXcQ')">Is he ever gonna give you up?</button>
+        <br><br>
+        <button onclick="nebula.notify.toast('Zeeky Boogy Doog!', '... *boom*', 'warning')">Mystery button</button>
+    </div>
+
     <script type="module">
 
         const nebula = {};
 
         import * as notify from './lib/alerts.lib.js';
         nebula.notify = notify;
+
+        import * as modal from './lib/modal.lib.js';
+        nebula.modal = modal;
 
         import NebulaAudio from './lib/audio.lib.js';
         nebula.audio = new NebulaAudio();
