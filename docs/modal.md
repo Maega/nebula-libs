@@ -12,13 +12,19 @@ import * as modal from './lib/modal.lib.js';
 ### :wrench: Creating Disposable Modals
 
 ```javascript
-// Open an image modal via an image URL
+/**
+* Open an image modal via an image URL
+* - Accepts a URL string. URL must include a forward-slash (/) at least once in the path name.
+*/
 modal.image(url, options);
 
 // Open an image modal via an img tag selector
 modal.image(selector, options);
 
-// Open a modal with an iframe as its content
+/**
+* Open a modal with an iframe as its content
+* - Accepts a URL string to be used as the iframe src.
+*/
 modal.iframe(url, options);
 
 /**
