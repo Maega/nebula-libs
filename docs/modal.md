@@ -77,7 +77,7 @@ options = {
 
 ### :tada: Event Handling
 
-#### NebulaModal Events:
+#### NebulaModal Events
 
 | Event Name | Description |
 | ---------- | ----------- |
@@ -86,7 +86,7 @@ options = {
 | onClosing  | Fires when a new modal is being closed |
 | onClosed   | Fires when a new modal has finished closing |
 
-#### Event Handling:
+#### Event Handling
 
 ```javascript
 /**
