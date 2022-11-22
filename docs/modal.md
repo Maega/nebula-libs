@@ -93,8 +93,8 @@ options = {
 * Adds an event listener to all modals
 * - Accepts any NebulaModal event and a handler function.
 */
-audio.on(event, handlerFunction);
+modal.on(event, handlerFunction);
 
 // Removes all listeners associated with an event
-audio.off(event);
+modal.off(event);
 ```
