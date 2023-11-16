@@ -1,5 +1,7 @@
 # :musical_note: NebulaAudio
 
+**⚠️ This version of NebulaAudio is deprecated. An up-to-date version is now available [here](https://github.com/paradoxepoch/web-audio-player) as an [NPM module](https://www.npmjs.com/package/@paradoxepoch/web-audio-player).**
+
 NebulaAudio is a HTMLAudioElement interface wrapper that adds a few convenience methods and jQuery-like event listener management.
 
 ### :open_book: Initialisation
